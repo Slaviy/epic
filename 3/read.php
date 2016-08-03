@@ -9,5 +9,6 @@
 	 	if (is_file($file)){
 	 		echo "<li>" .file_get_contents($file). "<br> <a href=\"delete.php?file=".$filename."\">Delete</a> <a href=\"edit.php?file=".$filename."\">Edit</a></li>";
 	 	}
+	 	
 	 }
 	 echo "</ul>";
