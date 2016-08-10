@@ -8,11 +8,10 @@
 		Имя файла: <input name="filename" value="<?=$_GET['file'];?>">
 			<input type="submit">
 </form>*/
-	 
+	
 include_once("db.php"); 
 $post=getPost($_GET['id']) 
 ?> 
-
 <meta charset="utf-8"> 
 <form action="editpost.php" method="post"> 
 Текст<input name="data" placeholder="content" value="<?=$post['text'];?>"/> 
