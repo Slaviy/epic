@@ -5,7 +5,7 @@
 	$pass = md5($_POST['pass'] . $salt);
 	
 
-	$stmt = $db->prepare ("SELECT * FROM `users` WHERE `name` = :login AND `pass` = :pass");
+	$stmt = $db -> prepare ("SELECT * FROM `users` WHERE `name` = :login AND `pass` = :pass");
 	$stmt -> execute (['login' => $login, 'pass' => $pass]);
 
 	if ($stmt -> rowCount () == 1)

@@ -1,23 +1,25 @@
 <?php
 	
 
-	$salt="dfggcvbbv00";
+	$salt = "dfggcvbbv00";
 
 
-	function connection(){
+	function connection()
+	{
 		$config = [
-			'host'=>'localhost',
-			'dbname'=>'EPIC',
-			'user'=>'root',
-			'password'=>'',
-			'encoding'=>'utf8',
+			'host' => 'localhost',
+			'dbname' => 'EPIC',
+			'user' => 'root',
+			'password' => '',
+			'encoding' => 'utf8',
 
 		];
+	
 
 		static $connection;
 		if (empty($connection)){
 			$connection = new PDO(
-				"mysql: host = {$config['host']}; dbname={$config['dbname']}",
+				"mysql: host = {$config['host']}; dbname = {$config['dbname']}",
 				$config ['user'],
 				$config ['password'],[
 					PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -42,5 +44,5 @@
 		$clientTokem = $_POST['afr'];
 		$serverToken = $_SESSION['afr'];
 
-		return($serverToken==$clientToken);
+		return($serverToken == $clientToken);
 	}

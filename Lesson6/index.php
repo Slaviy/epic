@@ -6,12 +6,13 @@
 	//Routing
 	//http://domain.com/index.php?c=post&a=read
 
-	$controller =$_GET['c'];
+	$controller = $_GET['c'];
 	$action = $_GET['a'];
 
 	switch($controller){
 		case 'post':
-			switch ($action){
+			switch ($action)
+			{
 				case 'add':
 					postAdd();
 					break;
@@ -38,7 +39,8 @@
 			break;
 	}
 
-	function postAdd(){
+	function postAdd()
+	{
 		echo template("template.php",[
 			'body' => template("postAdd.php",[
 				'_aft' => makeToken()
@@ -46,7 +48,8 @@
 		]);
 	}
 
-	function index(){
+	function index()
+	{
 		postAdd;
 	}
  
@@ -71,8 +74,8 @@
   	function postRead()
   	{
   		echo template ("template.php", [
-  			'body'=> template("postRead.php",[
-  			'data'=>getPosts()
+  			'body' => template("postRead.php",[
+  			'data' => getPosts()
   			])
   		]);
   	}

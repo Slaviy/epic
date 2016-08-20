@@ -15,5 +15,5 @@
 		return $contents;
 	}
 
-	echo template (__DIR__ . "/template.php", array ("a" => 1, "b" =>2));
+	echo template (__DIR__ . "/template.php", array ("a" => 1, "b" => 2));
 ?>
