@@ -1,0 +1,9 @@
+{
+	"autoload":{
+		"psr-4": {
+			"Epic\\Models\\":"models",
+			"Epic\\Controllers\\":"controllers"
+
+		}
+	}
+}
