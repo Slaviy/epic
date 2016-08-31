@@ -47,3 +47,4 @@
 	$stmt -> execute (['id' => $id, 'name'=>$text]); 
 	return ($stmt->errorCode () [0] == "00000"); 
 	}
+	

@@ -13,4 +13,3 @@ class MyFirstClass
 $myObject = new MyFirstClass();
 $myObject->someProp = 'Vasya';
 $myObject->myMethod();
-

@@ -8,3 +8,4 @@
 	result-round(diff/60/60/24)."days";
 		
 		echo $name . "it's".$result."from your birthday now";
+		

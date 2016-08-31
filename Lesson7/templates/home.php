@@ -20,4 +20,3 @@
     <a href="index.php?action=add">Добавить сообщение</a>
 </body>
 </html>
-

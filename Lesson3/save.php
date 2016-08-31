@@ -3,3 +3,4 @@
 
 		file_put_contents($path, $_POST['data']);
 		header('Location:read.php');
+		

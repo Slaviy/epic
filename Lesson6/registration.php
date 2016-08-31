@@ -5,3 +5,4 @@
 	echo '<input type = "password" name = "pass" />';
 	echo '<button>OK</button>';
 	echo '</form>';
+	

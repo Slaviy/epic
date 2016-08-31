@@ -8,3 +8,4 @@
 		//$a = getPosts();
 		//var_dump($a);
 		addPost($_POST['data']);
+		

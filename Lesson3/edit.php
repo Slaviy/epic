@@ -8,4 +8,3 @@
 		Имя файла: <input name="filename" value="<?=$_GET['file'];?>">
 			<input type="submit">
 </form>
-

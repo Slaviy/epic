@@ -16,3 +16,4 @@
 			header ("Location:read.php");
 		}
 		echo "<b>Login error</b>";		
+		

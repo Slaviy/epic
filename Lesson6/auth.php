@@ -6,3 +6,4 @@
 		else{
 			echo '<a href = "logout.php">Ваш ID - '.$_SESSION['user_id'].'(выйти)</a)';
 		}
+		

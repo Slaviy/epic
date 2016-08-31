@@ -4,4 +4,3 @@
 		<input name = "text" placeholder = "Text"/>
 		<button>Save</button>
 </form>
-

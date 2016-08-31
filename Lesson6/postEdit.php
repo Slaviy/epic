@@ -3,5 +3,3 @@
 <input type = "hidden" name = "id" value="<?=$post['id'];?>"/> 
 <input type = "submit" /> 
 </form> 
-
-
